@@ -1,29 +1,29 @@
 :root {
-  --page-bg: #f5f6f1;
-  --surface-1: #ffffff;
-  --surface-2: #eef2ed;
-  --surface-3: #e4e9e3;
-  --surface-inverse: #18201d;
-  --text-primary: #18201d;
-  --text-muted: #5d6862;
-  --text-inverse: #ffffff;
-  --text-on-accent-primary: #ffffff;
-  --text-link: #2f6f5e;
-  --focus-ring: #2f6f5e;
-  --line: #d8ded7;
-  --line-strong: #7d8982;
-  --accent-primary: #2f6f5e;
-  --accent-secondary: #b85c38;
-  --accent-bright: #c49a35;
-  --status-confirmed: #2f6f5e;
-  --status-caution: #9b651f;
-  --status-unknown: #69736e;
-  --font-heading: Inter, ui-sans-serif, system-ui, sans-serif;
-  --font-body: Inter, ui-sans-serif, system-ui, sans-serif;
+  --page-bg: #0E111A;
+  --surface-1: #161A26;
+  --surface-2: #1C2230;
+  --surface-3: #222938;
+  --surface-inverse: #ECE2C9;
+  --text-primary: #ECE2C9;
+  --text-muted: #9A9384;
+  --text-inverse: #0E111A;
+  --text-on-accent-primary: #0E111A;
+  --text-link: #C9A24F;
+  --focus-ring: #C9A24F;
+  --line: #2A2F3D;
+  --line-strong: #4A4F5D;
+  --accent-primary: #B8323D;
+  --accent-secondary: #C9A24F;
+  --accent-bright: #C9A24F;
+  --status-confirmed: #3D8C5A;
+  --status-caution: #C9A24F;
+  --status-unknown: #6A6F7D;
+  --font-heading: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --heading-weight: 800;
   --border-width: 1px;
-  --radius: 8px;
-  --shadow: 0 18px 50px rgba(24, 32, 29, 0.08);
+  --radius: 10px;
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
   --hover-lift: -2px;
   --max-width: 1180px;
 }
@@ -62,6 +62,7 @@
 .site-theme .brand {
   font-family: var(--font-heading);
   font-weight: var(--heading-weight);
+  letter-spacing: 0.005em;
 }
 
 .site-theme :focus-visible {
@@ -85,25 +86,25 @@
 }
 
 .motif-low {
-  --motif-opacity: 0.55;
+  --motif-opacity: 0.4;
 }
 
 .motif-medium {
-  --motif-opacity: 1;
+  --motif-opacity: 0.7;
 }
 
 .motif-lines {
   --motif-image: linear-gradient(
     115deg,
     transparent 0 72%,
-    color-mix(in srgb, var(--accent-primary) 16%, transparent) 72% 74%,
+    color-mix(in srgb, var(--accent-secondary) 12%, transparent) 72% 74%,
     transparent 74%
   );
 }
 
 .motif-dots {
   --motif-image: radial-gradient(
-    color-mix(in srgb, var(--accent-primary) 18%, transparent) 1px,
+    color-mix(in srgb, var(--accent-secondary) 18%, transparent) 1px,
     transparent 1px
   );
   --motif-size: 22px 22px;

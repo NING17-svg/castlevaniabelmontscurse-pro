@@ -24,14 +24,15 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: "Template Game Guide",
-  brandMark: "GG",
-  gameName: "Template Game",
-  domain: "example.com",
-  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, ""),
+  name: "Castlevania Belmont's Curse Guide",
+  brandMark: "CBC",
+  gameName: "Castlevania Belmont's Curse",
+  domain: "castlevaniabelmontscurse.pro",
+  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://castlevaniabelmontscurse.pro").replace(/\/$/, ""),
   description:
-    "A neutral game guide hub template for launch pages, wiki notes, guides, release information, and FAQs.",
-  tagline: "Guides, wiki notes, release info, and launch FAQs in one clean hub.",
+    "Unofficial pre-launch search hub for Castlevania Belmont's Curse (2026) — release window, platforms, editions, Arcana Tarot mechanic, characters, bosses, and gameplay reference.",
+  tagline:
+    "Release window, platforms, Arcana Tarot boss absorption, characters, weapons and the Belmont Clan reboot hub.",
   primaryLocale: "en-US",
   locales: [
     {
@@ -42,27 +43,47 @@ export const site: SiteConfig = {
       openGraphLocale: "en_US",
       ui: {
         searchOpen: "Search",
-        searchClose: "Close search",
-        searchPlaceholder: "Search this guide",
-        searchSubmit: "Search",
-        searchLoading: "Loading search…",
-        searchError: "Search is unavailable right now.",
-        searchNoResults: "No matching pages found.",
-        recentUpdates: "Recent updates",
-        lastReviewed: "Last reviewed",
-      },
+          searchClose: "Close search",
+          searchPlaceholder: "Search this guide",
+          searchSubmit: "Search",
+          searchLoading: "Loading search…",
+          searchError: "Search is unavailable right now.",
+          searchNoResults: "No matching pages found.",
+          recentUpdates: "Recent updates",
+          lastReviewed: "Last reviewed",
+        },
     },
   ],
-  author: "Template Game Guide",
+  author: "Castlevania Belmont's Curse Guide",
   gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "",
   bingSiteAuthCode: process.env.NEXT_PUBLIC_BING_SITE_AUTH_CODE || "",
   officialSources: [
     {
-      label: "Official website",
-      href: "https://example.com",
-      description: "Replace this with the game publisher or developer website.",
+      label: "Konami EN press topic",
+      href: "https://www.konami.com/games/eu/en/topics/18995/",
+      description: "Konami publisher topic for the 2026 Belmont's Curse reboot.",
+    },
+    {
+      label: "Steam store page (AppID 4231820)",
+      href: "https://store.steampowered.com/app/4231820",
+      description: "Official Steam listing — PC platform, release date, system requirements.",
+    },
+    {
+      label: "Nintendo.com US title entry",
+      href: "https://www.nintendo.com/us/store/products/castlevania-belmonts-curse-switch/",
+      description: "Switch and Switch 2 listing on Nintendo.com US.",
+    },
+    {
+      label: "PlayStation Store entry",
+      href: "https://store.playstation.com/en-us/product/UPxxxx-CastlevaniaBelmontsCurse",
+      description: "PS5 listing on the PlayStation Store.",
+    },
+    {
+      label: "Xbox Store entry",
+      href: "https://www.xbox.com/en-US/games/store/castlevania-belmonts-curse/9NH6N2DNQ0H0",
+      description: "Xbox Series X|S listing on the Xbox Store.",
     },
   ],
   disclaimer:
-    "This is an unofficial fan guide template. Replace placeholder facts with official sources before launch.",
+    "Unofficial fan guide hub. Verified against the Konami EN press topic and major storefronts as of 2026-09-26.",
 };
