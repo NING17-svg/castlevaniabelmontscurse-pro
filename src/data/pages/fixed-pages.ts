@@ -1121,7 +1121,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Setting and tone",
         body:
-          "The 2026 reboot sits in a gothic European castle environment shaped by the same vampire-hunting template that has run through the franchise since Castlevania (1986, NES). Konami's EN press topic frames the new entry as a return to the series' gothic-platforming roots, with the Belmont sisters working through a sprawling castle environment layered with metroidvania exploration and Arcana Tarot boss absorption.",
+          "The 2026 reboot sits in a gothic European castle environment shaped by the same vampire-hunting approach that has run through the franchise since Castlevania (1986, NES). Konami's EN press topic frames the new entry as a return to the series' gothic-platforming roots, with the Belmont sisters working through a sprawling castle environment layered with metroidvania exploration and Arcana Tarot boss absorption.",
       },
       {
         id: "belmont-arc",
@@ -1350,7 +1350,7 @@ export const fixedPages: PageContent[] = [
         type: "prose",
         heading: "Composer credit for the 2026 soundtrack",
         body:
-          "The composer credit for the 2026 reboot's new score has not been announced as of 2026-09-26. The Konami EN press topic frames the new chapter through the Belmont Clan arc and the gothic-platforming template but does not name a composer.",
+          "The composer credit for the 2026 reboot's new score has not been announced as of 2026-09-26. The Konami EN press topic frames the new chapter through the Belmont Clan arc and the gothic-platforming approach but does not name a composer.",
       },
       {
         id: "new-themes",
